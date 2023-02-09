@@ -41,9 +41,9 @@ export default function AdviceCard() {
 
   return (
     <div
-      className={`${manrope.className} relative flex max-w-sm flex-col items-center rounded-xl bg-[#313a49] py-14 px-12 text-center sm:max-w-md`}
+      className={`${manrope.className} relative flex max-w-sm flex-col items-center rounded-xl bg-[#313a49] px-12 pt-9 pb-14 text-center sm:max-w-md`}
     >
-      <p className="mb-10 text-sm font-bold leading-relaxed text-[#55ffab]">
+      <p className="tracking mb-10 text-sm font-bold tracking-[0.3em] text-[#55ffab]">
         ADVICE #{advice.id}
       </p>
       <p className="mb-10 text-2xl font-bold text-[#cee3e8]">{`"${advice.advice}"`}</p>
